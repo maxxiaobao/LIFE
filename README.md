@@ -2,11 +2,11 @@
 
 ####  我是 `LIFE`团队中的一员
 
-####　LFE -- Love ife
+####　LIFE -- Love ife
 
 ####  life 也是一种生活方式
 
-####  IFE 爱前端，爱生活。:heart:
+####  IIFE 爱前端，爱生活。:heart:
 
 > ### 阶段一
 >>
