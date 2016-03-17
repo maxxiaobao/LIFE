@@ -9,4 +9,6 @@
 ####  IFE 爱前端，爱生活。:heart:
 
 > ### 阶段一
->> 任务一 ····· [零基础HTML编码](http://maxxiaobao.github.io/Step1-task1)
+>>
+* 任务一 ····· [演示](http://maxxiaobao.github.io/Step1-task1) &nbsp; [代码](https://github.com/maxxiaobao/Step1-task1)
+*  任务二 ····· [演示](http://maxxiaobao.github.io/Step1-task2) &nbsp; [代码](https://github.com/maxxiaobao/Step1-task2)
