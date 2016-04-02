@@ -23,3 +23,11 @@
 > ### 阶段二
 >>
 * 任务十三 &nbsp;零基础JavaScript编码（一） [演示](http://maxxiaobao.github.io/LIFE/step2/task13/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task13)
+* 任务十四 &nbsp;零基础JavaScript编码（二） [演示](http://maxxiaobao.github.io/LIFE/step2/task14/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task14)
+* 任务十五 &nbsp;零基础JavaScript编码（三） [演示](http://maxxiaobao.github.io/LIFE/step2/task15/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task15)
+* 任务十六 &nbsp;零基础JavaScript编码（四） [演示](http://maxxiaobao.github.io/LIFE/step2/task16/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task16)
+* 任务十七 &nbsp;零基础JavaScript编码（五） [演示](http://maxxiaobao.github.io/LIFE/step2/task17/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task17)
+* 任务十八 &nbsp;基础JavaScript练习（一） [演示](http://maxxiaobao.github.io/LIFE/step2/task18/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task18)
+* 任务十九 &nbsp;基础JavaScript练习（二） [演示](http://maxxiaobao.github.io/LIFE/step2/task19/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task19)
+* 任务二十 &nbsp;基础JavaScript练习（三） [演示](http://maxxiaobao.github.io/LIFE/step2/task20/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task20)
+* 任务二十一 &nbsp;基础JavaScript练习（四） [演示](http://maxxiaobao.github.io/LIFE/step2/task21/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task21)
