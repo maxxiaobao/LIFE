@@ -22,4 +22,4 @@
 
 > ### 阶段二
 >>
-* 任务九 &nbsp;使用HTML/CSS实现一个复杂页面 [演示](http://maxxiaobao.github.io/LIFE/step1/task9/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step1/task9)
+* 任务十三 &nbsp;零基础JavaScript编码（一） [演示](http://maxxiaobao.github.io/LIFE/step2/task13/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step12/task13)
