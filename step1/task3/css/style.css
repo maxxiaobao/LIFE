@@ -1,0 +1,69 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	height: auto;
+	background-color:#ccc;
+	margin:20px; 
+}
+
+.clearfix:after{ /*  清除浮动 */
+   content:'';
+   display:table;
+   clear:both;   
+}
+.clearfix{
+	*zoom:1;
+}
+.team{
+	background: #fff;
+	width: 200px;
+	height: 80px;
+	float: left;
+	border: 1px solid #ccc;
+	position: relative;
+	top: 20px;
+	left: 20px;
+
+	/*float: left;
+	position: relative;
+	top: 20px;
+	left: 20px;*/
+}
+
+.introduce{
+	border: 1px solid #fff;
+	position:absolute;
+	top: 40px;
+	left: 260px;
+	right: 180px;
+	padding: 20px;
+	background-color: #fff;
+}
+
+.every{
+	width: 120px;
+	float: right;
+	border: 1px solid #ccc;
+	position: relative;
+	top: 20px;
+	right: 20px;
+	background-color: #fff;
+}
+
+.self{
+	margin: 20px 20px 0 20px;
+	border: 1px solid black;
+}
+
+.self img{
+	width: 100%;
+	height: 100%;
+}
+
+#last{
+	margin-bottom: 20px;
+}
+

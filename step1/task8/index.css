@@ -1,0 +1,32 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	width:100%;
+}
+
+.container,
+.row{
+	width: 100%;
+	margin: 0;
+	padding:0;
+}
+
+.row{
+	padding-right: 20px;
+}
+
+[class*='col-']{
+	margin: 0;
+	padding:0;
+}
+
+.box{
+	 border: 1px solid #999;  
+	height: 50px;
+	background-color: #eee;
+	margin-top: 20px;
+	margin-left: 20px;
+}

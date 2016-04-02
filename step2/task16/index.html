@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零基础JavaScript编码（四）</title>
+</head>
+ 
+<label>城市名称:<input type="text" id="cityname" value=""></label>
+<br>
+<label>空气质量指数:<input type="text" id="airnum"></label>
+<br>
+<button onclick="add()">确认添加</button>
+<br>
+<table id="table" border="1"> </table>
+	<script type="text/javascript">
+		var n= 1;
+		function iftrue(){
+			var name = document.getElementById("cityname").value;
+ 			var num = document.getElementById("airnum").value;
+			if(isNaN(name)){
+				if(parseInt(num) == num){
+					return true;
+				}else{
+					alert("空气质量指数有误，请输入整数！");
+					return false;
+				}	
+			}else{
+				alert("城市名称有误，请输入中文或者英文字符！");
+				return false;
+			}
+		}
+	function addtr(){
+ 			var table = document.getElementById("table");
+			var node = document.createElement("tr");
+			var node1 = document.createElement("td");
+			node1.innerHTML = "城市名称";
+			node.appendChild(node1);
+			var node2 = document.createElement("td");
+			node2.innerHTML = "空气质量";
+			node.appendChild(node2);
+			var node3 = document.createElement("td");
+			node3.innerHTML = "删除";
+			node.appendChild(node3);
+			table.appendChild(node);
+	}
+ 	function add(){
+ 		
+		if(iftrue()){
+			if (n==1){
+ 			addtr();
+ 			n = 0;
+ 			}
+			var name = document.getElementById("cityname").value;
+ 			var num = document.getElementById("airnum").value;
+			var node = document.createElement("tr");
+			var node1 = document.createElement("td");
+			node1.innerHTML = name;
+			node.appendChild(node1);
+			var node2 = document.createElement("td");
+			node2.innerHTML = num;
+			node.appendChild(node2);
+			node3 = document.createElement("td");
+			var del = document.createElement("button");
+			del.innerHTML="删除";
+		   	del.setAttribute("onclick","del(event)");
+		   	node3.appendChild(del);
+		   	node.appendChild(node3);
+			table.appendChild(node);
+		}
+	}
+
+	function del(event){
+		var table = document.getElementById("table");
+		var tag = event.target;
+		//本来用的this，发现事件冒泡了，不能这么用
+		var delnode = tag.parentNode.parentNode;
+		 table.removeChild(delnode);
+	}
+
+
+</script>
+</table>
+</html>

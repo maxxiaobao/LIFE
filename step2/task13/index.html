@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零基础JavaScript编码（一）</title>
+</head>
+<body>
+	<label for="weather">请输入北京今天的天气质量：</label>
+	<input type="text" name="weather" id="weather" value="">
+	<button onclick="btn()">确认提交</button>
+	<p>您输入的值是：<span id="your-write-wea">尚未录入</span></p>
+	<script type="text/javascript">
+		function btn(){
+			var weather = document.getElementById('weather');
+			//一开始使用的ByName，忘记了返回的而数组，造成undefined
+			var uweather = document.getElementById('your-write-wea');
+			uweather.innerHTML = weather.value;
+		}
+	</script>
+</body>
+</html>

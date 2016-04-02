@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>零基础JavaScript编码（三）</title>
+</head>
+<body>
+	<ul id="old">
+		<li>北京空气质量：90</li>
+		<li>上海空气质量：70</li>
+		<li>天津空气质量：80</li>
+		<li>广州空气质量：50</li>
+		<li>深圳空气质量：40</li>
+		<li>福州空气质量：32</li>
+		<li>成都空气质量：90</li>
+	</ul>
+	<button onclick="showsort()">排序</button>
+	<ul id="new">
+		
+	</ul>
+	<script type="text/javascript">
+		var aqiData = [
+			["北京",90],
+			["上海",70],
+			["天津",80],
+			["广州",50],
+			["深圳",40],
+			["福州",32],
+			["成都",90]
+		];
+		function sort(){
+			for(var i=0;i<aqiData.length;i++){
+				for(var j=i+1;j<aqiData.length;j++){  //冒泡排序
+					if(aqiData[i][1] < aqiData[j][1]){
+						var temp = aqiData[i];
+						aqiData[i] = aqiData[j];
+						aqiData[j] = temp;
+					}
+				}
+			}
+		}
+
+		function showsort(){
+			sort();    // 要执行才能排序
+			var data = document.getElementById("new");
+			for(var i=0;i<aqiData.length;i++){
+				var node = document.createElement("li");
+				var str = "第" + (i+1)+ "名:" + aqiData[i][0] +"空区质量 " + aqiData[i][1];
+				node.innerHTML = str;
+				data.appendChild(node);
+
+			}
+		}
+		
+	</script>
+</body>
+</html>

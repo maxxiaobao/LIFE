@@ -1,0 +1,480 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	right: 0;
+}
+
+.page{
+	width: 892px;
+	height: 1386px;
+	margin: 0 auto;
+	padding:0 44px 0 44px;
+	/*background-color: blue;*/
+}
+
+/* 页头 */
+
+header{
+	width: 100%;
+	height: 61px;
+	/*background-color: green;*/    /* !!!! */   
+	font-size: 12px;
+	font-family: "黑体";
+	border-bottom: 2px solid #938e8c;
+	margin-bottom: 20px;
+}
+
+header .name{
+	float: left;
+	width: 110px;
+	height: 61px;
+	background-color: #d45d5c;
+	color: #fff;
+}
+
+header .name p{
+	position: absolute;
+	top: 40px;
+}
+
+header .time p{
+	text-align: right;
+	padding-top: 40px;
+	color: #d45d5c;
+}
+
+
+/* 内容部分 */
+
+.one{
+	width: 892px;
+	height: 301px;
+	/*background-color: black;*/  /* !!! */
+	position: absolute;
+	position: relative;
+}
+
+.one .left{
+	position: absolute;
+	margin-right: 48px;
+}
+
+/* window是遮罩 */
+
+.one .left #left-window{
+	background-color: green;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.one .left #right-window{
+	background-color: purple;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.window{
+	width: 191px;
+	height: 301px;
+	filter:alpha(opacity=30); /*IE滤镜，透明度50%*/
+ 	-moz-opacity:0.3; /*Firefox私有，透明度50%*/
+	opacity:0.3;/*其他，透明度50%*/
+
+}
+
+.one .right{
+	width: 203px;
+	height: 301px;
+	/*background-color: yellow; */ /* !!! */
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-top: 2px solid #cc8091;  
+}
+
+.one .right .tittle{
+	width: 150px;
+	margin-top: 10px;       /*  ？ 段落间距*/
+}
+
+.one .right .tittle-big{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #000;
+	border-bottom: 2px solid #000;
+}
+
+.one .right .tittle-big .B{
+	font-size: 24px;
+}
+
+.one .right .tittle-small{
+	font-size: 12px;
+	color: #676767;
+	font-family: "楷体";
+	/*margin-bottom: 10px;*/  /* ？段落距离 */
+}
+
+.one .right .num{
+	font-size: 116px;
+	color: #75b86b;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-style: oblique;
+}
+
+.one .right .foot-num{
+	font-family: "微软雅黑";
+	font-size: 55px;
+	color: #cc8091;
+	position: absolute;        /*   BUG  方法不对  */
+	left: 0;
+	bottom: -10px;
+}
+
+.one .right .foot-css1{
+	font-size: 21px;
+	color: #cc8091;
+	font-family: "微软雅黑";
+	position: absolute;
+	left: 75px;                   /*   BUG  方法不对  */
+	bottom: 20px;
+}
+
+.one .right .foot-css2{
+	font-size: 12px;
+	color: #cc8091;
+	font-family: "微乳雅黑";
+	position: absolute;            /*   BUG  方法不对  */
+	left: 75px;
+	bottom: 0;
+}
+
+
+.two{
+	width: 641px;
+	margin-top: 20px;
+}
+
+.two .box{
+	width: 30%;
+	height: 260px;
+	padding-right:20px; 
+	background-color: #fff;      /*  ！！！ */
+	float: left;
+	margin-bottom: 20px;
+}
+
+/*.two .left{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.two .middle{
+	position: absolute;
+	top: 0;
+	left: 33%;
+}
+
+.two .right {
+	position: absolute;
+	top: 0;
+	left: 66%;
+}*/
+
+.two .left .tittle{
+	font-size: 16px;
+	color: #418c59;
+	font-family: "微软雅黑";
+	text-decoration: underline;
+}
+
+.two .box .article{
+	font-size: 12px;
+	color: #767777;
+	margin-top: 8px;
+	font-family: "宋体";
+}
+
+.two .middle .tittle{
+	font-size: 16px;
+	color: #d2994f;
+	text-decoration: underline;
+}
+
+.two .middle .article{
+	font-size: 12px;
+	color: #231815;
+	margin-top: 8px;
+	filter:alpha(opacity=30); /*IE滤镜，透明度50%*/
+ 	-moz-opacity:0.3; /*Firefox私有，透明度50%*/
+	opacity:0.3;/*其他，透明度50%*/
+}
+
+.two .right .tittle{
+	font-size: 16px;
+	color: #cc7680;
+	text-decoration: underline;
+}
+
+.two .right .article{
+	line-height: 25px;
+
+}
+
+.two .right .opacity{
+	font-size: 12px;
+	color:#cd4a48;
+	font-family: "微软雅黑";
+	filter:alpha(opacity=70);
+ 	-moz-opacity:0.7; 
+	opacity:0.7;
+}
+
+.three{
+	width: 100%;
+	height: 613px;
+	/*background-color: green;*/
+}
+
+.three .box{
+	float: left;
+}
+
+.three .left{
+	width: 415px;
+	height: 613px;
+	/*background-color: yellow;*/
+	margin-right: 19px;
+}
+
+.three .right{
+	width: 458px;
+	height: 613px;
+	/*background-color: red;*/
+}
+
+
+.three .tittle .tittle-big-1{
+	font-size: 72px;
+	color: #f5e327;
+	font-family: "黑体";
+	font-style: oblique;
+}
+
+.three .tittle .tittle-big-2{
+	font-size: 42px;
+	color: #11456b;
+	font-family: "黑体";
+	margin-bottom: 8px;
+
+}
+
+.three .tittle .tittle-small{
+	font-size: 33px;
+	color: #11456b;
+	font-family: "黑体";
+	padding-bottom: 8px;
+	border-bottom: 2px solid  #11456b;
+}
+
+.three .article{
+	margin-top: 16px;
+	font-size: 12px;
+	color: #767777;
+	font-family: "宋体";
+	line-height: 26px;
+}
+
+.three .article .article-big{
+	font-size: 70px;
+	color: #f5e327;
+	font-family: "微软雅黑";
+	float: left;
+	padding: 5px 5px 5px 0;
+	line-height: 80px
+}
+
+.three .article img{
+	padding: 8px 0 8px 8px;
+	float: right;
+}
+
+.three .up{
+	width: 458px;
+	height: 275px;
+	position: absolute;
+	margin-bottom: 20px;
+}
+
+.three .up .up-on{
+	width: 458px;
+	height: 61px;
+	background-color: black;
+	filter:alpha(opacity=30);
+ 	-moz-opacity:0.3; 
+	opacity:0.3;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.three .up #up-in{
+	width: 458px;
+	height: 44px;
+	margin: 8px 8px 8px 26px;
+	padding-left: 8px;
+	border-left: 3px solid #72b16a;
+}
+
+.three .up img{
+	width: 458px;
+	height: 275px;
+}
+
+.three .up .up-on .in-big{
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 26px;
+}
+
+.three .up .up-on .in-small{
+	font-size: 12px;
+	color: #72b16a;
+	font-style: oblique;
+	font-family: "微软雅黑";
+}
+
+.three .right .down{
+	width: 438px;
+	height: 298px;
+	background-color: #edebd4;
+	padding:20px 20px 0 0;
+	position: relative;
+	top: 297px;
+}
+
+.three .right .down img{
+	float: left;
+	margin-left: 20px;
+}
+
+.three .right .down p{
+	line-height: 26px;
+}
+
+.three .right .down .qian{
+	font-size: 16px;
+	font-family: "宋体";
+	color: #5a5a5b;
+}
+
+.three .right .down .hou{
+	font-size: 12px;
+	color: #5a5b5b;
+	font-family: "宋体";
+	font-style: oblique;
+}
+
+.three .right .down .left-bot{
+	width: 260px;
+	height: 160px;
+	background-color: rgb(209,94,95);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.three .right .down .left-bot .num{
+	float: left;
+	font-size: 110px;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+
+.three .right .down .left-bot .bor{
+	float: left;
+	margin-top: 32px;
+	width: 2px;
+	height: 86px;
+	border-right: 2px solid #fff;
+}
+
+/*.three .right .down .left-bot .text{
+	float: left;
+}*/
+
+.three .right .down .left-bot .text1{
+	font-size: 21px;
+	color: #fff;
+	font-family: "黑体";
+	margin-top: 32px;
+}
+
+.three .right .down .left-bot .text2{
+	font-size: 12px;
+	color: #fff;
+	font-family: "黑体";
+	line-height: 15px;
+}
+
+.three .right .down .right-bot{
+	width: 180px;
+	height: 160px;
+	/*margin-left: 20px;*/
+	background-color: #edebd4;           /*  为什么一个引号占用这么大的位置的！  还有那个0！*/
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.three .right .down .right-bot .yin-1{
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: "黑体";
+	float: left;
+}
+
+.three .right .down .right-bot .yin-2{
+	font-size: 72px;
+	color: #d45d5c;
+	font-family: "黑体";
+	float: right;
+}
+
+.three .right .down .right-bot .text{
+	font-size: 14px;
+	color: #5a5b5b;
+	font-family: "黑体";
+	line-height: 16px;
+	font-style: oblique;
+}
+
+footer{
+	width: 892px;
+	height: 61px;
+	/*background-color: yellow;*/
+	border-top:1px solid #938e8c; 
+	position: relative;
+	top:300px;
+	position: relative;	
+}
+
+footer p{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-style: "黑体";
+	font-size: 12px;
+	color: #d45d5c;
+}

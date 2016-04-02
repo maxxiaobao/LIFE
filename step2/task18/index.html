@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基础JavaScript练习（一）</title>
+</head>
+<body>
+	<style type="text/css">
+		span{
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			margin: 5px;
+			text-align: center;
+			line-height: 30px;
+			border-radius: 5px;
+		}
+	</style>
+	<label>
+		<input type="text" id="num">
+		<button id="add-left">左侧入</button>
+		<button id="add-right">右侧入</button>
+		<button id="del-left">左侧出</button>
+		<button id="del-right">右侧出</button>
+	</label>
+	<div id="all"></div>
+	<script type="text/javascript">
+	//事件处理程序兼容浏览器处理
+	function addHandler(element,type,Handler){
+		if(element.addEventListener){
+			element.addEventListener(type,Handler,false);
+		}else if(element.attachEvent){
+			element.attachEvent(type,Handler);
+		}else{
+			element['on'+type]=Handler;
+		}
+	}
+
+
+	//左侧进入
+	function addLeft(){
+		var num = document.getElementById("num");
+		var all = document.getElementById("all");
+		var span = document.createElement("span");
+		span.style.backgroundColor = "red";
+		span.innerHTML = num.value;
+		all.insertBefore(span,all.firstChild);
+		span.onclick = delspan;	
+	}
+	//右侧进入
+	function addRight(){
+		var num = document.getElementById("num");
+		var all = document.getElementById("all");
+		var span = document.createElement("span");
+		span.style.backgroundColor = "red";
+		span.innerHTML = num.value;
+		all.appendChild(span);
+		span.onclick = delspan;
+	}
+	//左侧删除
+	function delLeft(){
+		var all = document.getElementById("all");
+		alert(all.firstChild.innerHTML);
+		all.removeChild(all.firstChild);
+	}
+	//右侧删除
+	function delRight(){
+		var all = document.getElementById("all");
+		alert(all.lastChild.innerHTML);
+		all.removeChild(all.lastChild);
+	}
+
+	
+	//删除span
+	function delspan(){
+		var all = document.getElementById("all");
+		var span = event.target;
+		all.removeChild(span);
+	}
+
+	var addbtnL = document.getElementById("add-left"); 
+	var addbtnR = document.getElementById("add-right");
+	var delbtnL = document.getElementById("del-left");
+	var delbtnR = document.getElementById("del-right");
+	var all = document.getElementById("all");
+	addHandler(addbtnL,'click',addLeft);
+	addHandler(addbtnR,'click',addRight);
+	addHandler(delbtnL,'click',delLeft);
+	addHandler(delbtnR,'click',delRight);
+
+	</script>
+</body>
+</html>
