@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container{
+	width: 1000px;
+	height: 300px;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 100px auto 40px;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.item1{
+	width: 450px;
+	height: 250px;
+	border:1px solid black;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.item2{
+	width: 180px;
+	height: 200px;
+	border:1px solid black;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.item3{
+	width: 70px;
+	height: 150px;
+	border:1px solid black;
+}
+
+.buts{
+	text-align: center;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript和树（一）</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="container">
+		<div class="item1">
+			<div class="item2">
+				<div class="item3"></div>
+				<div class="item3"></div>
+			</div>
+			<div class="item2">
+				<div class="item3"></div>
+				<div class="item3"></div>
+			</div>
+		</div>
+		<div class="item1">
+			<div class="item2">
+				<div class="item3"></div>
+				<div class="item3"></div>
+			</div>
+			<div class="item2">
+				<div class="item3"></div>
+				<div class="item3"></div>
+			</div>
+		</div>
+	</div>
+	<div class="buts">
+		<input type="button" value="先序" id="first">
+		<input type="button" value="中序" id="middle">
+		<input type="button" value="后序" id="last">
+		速度：<select id="speed">
+			<option value="1000" selectd>1000</option>
+			<option value="700" >700</option>
+			<option value="300">300</option>
+		</select>
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
