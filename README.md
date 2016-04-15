@@ -31,3 +31,5 @@
 * 任务十九 &nbsp;基础JavaScript练习（二） [演示](http://maxxiaobao.github.io/LIFE/step2/task19/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task19)
 * 任务二十 &nbsp;基础JavaScript练习（三） [演示](http://maxxiaobao.github.io/LIFE/step2/task20/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task20)
 * 任务二十一 &nbsp;基础JavaScript练习（四） [演示](http://maxxiaobao.github.io/LIFE/step2/task21/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task21)
+* 任务二十二 &nbsp;JavaScript和树（一） [演示](http://maxxiaobao.github.io/LIFE/step2/task22/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task22)
+* 任务二十三 &nbsp;JavaScript和树（二） [演示](http://maxxiaobao.github.io/LIFE/step2/task23/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task23)
