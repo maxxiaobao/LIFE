@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript和树（四）</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="main">
+		<h3>树形组件</h3>
+		<input type="text" id="sel">
+		<button type="button" id="selbtn"><img src="img/search.ico">搜索</button><br>
+		<input type="text" id="add">
+		<button type="button" id="addbtn"><img src="img/add.ico">添加</button>
+		<button type="button" id="delbtn"><img src="img/remove.ico">删除</button>
+
+		<div id="root">
+			<ul>
+				<li>山东
+					<ul>
+						<li>济南
+							<ul>
+								<li>天桥</li>
+								<li>历下</li>
+								<li>济阳</li>
+							</ul>
+						</li>
+						<li>青岛
+							<ul>
+								<li>市南</li>
+								<li>李沧</li>
+								<li>黄岛</li>
+							</ul>
+						</li>
+						<li>泰安</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/until.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

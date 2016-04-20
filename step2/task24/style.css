@@ -1,0 +1,19 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+div{
+	border: 1px solid black;
+	padding: 10px;
+	margin: 5px;
+	display: flex;
+	flex-direction:row;  /*方向*/
+	flex-wrap:wrap;  /*换行*/
+	justify-content: space-around;
+	align-items:center;
+}
+
+.btns{
+	text-align: center;
+}

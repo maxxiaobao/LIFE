@@ -1,0 +1,23 @@
+
+#main{
+	width: 600px;
+	height: hidden;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+#root{
+	background-color: #ccc;
+}
+
+img{
+	margin-right: 10px;
+}
+
+ul,li{
+	list-style: none;
+}
+
+li{
+	width: 200px;
+}
