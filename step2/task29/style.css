@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width: 100%;
+}
+
+table{
+	width: 450px;
+	margin: 40px auto;
+	
+}
+
+.name{
+	margin: 10px;
+}
+
+.text{
+	height: 40px;
+	width: 300px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.sub{
+	height: 40px;
+	width: 60px;
+	font-size: 20px;
+	text-align: center;
+	background-color: skyblue;
+	border: none;
+	color: white;
+	border-radius: 5px;
+}
+
+#tip{
+	font-size: 18px;
+	color: #ccc;
+}
