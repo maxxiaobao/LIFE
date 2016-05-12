@@ -35,6 +35,6 @@
 * 任务二十三 &nbsp;JavaScript和树（二） [演示](http://maxxiaobao.github.io/LIFE/step2/task23/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task23)
 * 任务二十四 &nbsp;JavaScript和树（三） [演示](http://maxxiaobao.github.io/LIFE/step2/task24/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task24)
 * 任务二十五 &nbsp;JavaScript和树（四） [演示](http://maxxiaobao.github.io/LIFE/step2/task25/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task25)
-* 任务二十九 &nbsp;JavaScript和树（四） [演示](http://maxxiaobao.github.io/LIFE/step2/task29/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task29)
+* 任务二十九 &nbsp;表单（一）单个表单项的检验 [演示](http://maxxiaobao.github.io/LIFE/step2/task29/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task29)
 * 任务三十 &nbsp;表单（二）多个表单项的动态校验 [演示](http://maxxiaobao.github.io/LIFE/step2/task30/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task30)
 * 任务三十一 &nbsp;表单（三）联动 [演示](http://maxxiaobao.github.io/LIFE/step2/task31/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task31)
