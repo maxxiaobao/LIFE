@@ -38,4 +38,5 @@
 * 任务二十九 &nbsp;表单（一）单个表单项的检验 [演示](http://maxxiaobao.github.io/LIFE/step2/task29/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task29)
 * 任务三十 &nbsp;表单（二）多个表单项的动态校验 [演示](http://maxxiaobao.github.io/LIFE/step2/task30/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task30)
 * 任务三十一 &nbsp;表单（三）联动 [演示](http://maxxiaobao.github.io/LIFE/step2/task31/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task31)
-* 任务三十一 &nbsp;表单（四）实现表单自动生成工厂 [演示](http://maxxiaobao.github.io/LIFE/step2/task32/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task32)
+* 任务三十二 &nbsp;表单（四）实现表单自动生成工厂 [演示](http://maxxiaobao.github.io/LIFE/step2/task32/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task32)
+* 任务三十三 &nbsp;听指令的小方块（一） [演示](http://maxxiaobao.github.io/LIFE/step2/task33/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task33)
