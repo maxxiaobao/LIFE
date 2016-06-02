@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>听指令的小方块（二）</title>
+	<style type="text/css">
+	#main{
+		width:352px;
+		height: 352px;
+		margin-bottom: 40px;
+	}
+	.box{
+		float: left;
+		text-align: center;
+	}
+	#action{
+		float: left;
+		width:352px;
+		margin-left: 12%;
+		margin-top: 30px;
+	}
+	#command{
+		margin-left: 30px;
+	}
+	.tip{
+		width: 600px;
+		height: 340px;
+		padding: 15px;
+		margin-top: 35px;
+		margin-right: 40px;
+		float: right;
+		font-size: 18px;
+		line-height: 30px;
+		border: 1px solid #ccc;
+	}
+	</style>
+</head>
+<body>
+	
+	<div id="action">
+		<div id="main"></div>
+		<input type="text" id="command" name="command">
+		<input type="button" id="go" value="执行">
+	</div>
+	<div class="tip">
+		在输入框中允许输入如下指令，按下按钮后，使得正方形做相应动作<br>
+		移动不能超出格子空间<br>
+		TRALEF：向屏幕的左侧移动一格，方向不变<br>
+		TRATOP：向屏幕的上面移动一格，方向不变<br>
+		TRARIG：向屏幕的右侧移动一格，方向不变<br>
+		TRABOT：向屏幕的下面移动一格，方向不变<br>
+		MOVLEF：方向转向屏幕左侧，并向屏幕的左侧移动一格<br>
+		MOVTOP：方向转向屏幕上面，向屏幕的上面移动一格<br>
+		MOVRIG：方向转向屏幕右侧，向屏幕的右侧移动一格<br>
+		MOVBOT：方向转向屏幕下面，向屏幕的下面移动一格
+	</div>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
