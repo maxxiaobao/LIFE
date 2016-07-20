@@ -46,3 +46,4 @@
 > ### 阶段三
 >>
 * 任务三十七&nbsp;浮出层 [演示](http://maxxiaobao.github.io/LIFE/step3/task37/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step3/task37)
+* 任务三十七&nbsp;浮出层 [演示](http://maxxiaobao.github.io/LIFE/step3/task38/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step3/task38)
