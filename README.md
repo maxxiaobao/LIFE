@@ -42,3 +42,7 @@
 * 任务三十三 &nbsp;听指令的小方块（一） [演示](http://maxxiaobao.github.io/LIFE/step2/task33/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task33)
 * 任务三十四 &nbsp;听指令的小方块（二） [演示](http://maxxiaobao.github.io/LIFE/step2/task34/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task34)
 * 任务三十五 &nbsp;听指令的小方块（三） [演示](http://maxxiaobao.github.io/LIFE/step2/task35/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step2/task35)
+
+> ### 阶段二
+>>
+* 任务三十七&nbsp;浮出层 [演示](http://maxxiaobao.github.io/LIFE/step3/task37/index.html) &nbsp; [代码](https://github.com/maxxiaobao/LIFE/tree/master/step3/task37)
